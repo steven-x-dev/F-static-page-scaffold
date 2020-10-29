@@ -1,5 +1,6 @@
 body,
-html {
+html,
+p {
   margin: 0;
   padding: 0;
 }
@@ -17,4 +18,78 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/* debug start */
+html {
+  box-sizing: border-box;
+}
+/* debug end */
+
+.header {
+  padding: 20px;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.content-wrapper {
+  width: 70%;
+  margin: 0 auto;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.header .content-wrapper {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.header-left {
+  display: flex;
+  align-items: flex-end;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.logo,
+.btn-register {
+  display: inline-block;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.logo {
+  font-size: 4em;
+  font-weight: bolder;
+  line-height: 0.7em;
+  letter-spacing: -3px;
+}
+
+.btn-register {
+  margin-left: 10px;
+  width: 2.75em;
+  height: 1.75em;
+  border-radius: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
 }
