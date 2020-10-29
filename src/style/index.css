@@ -6,8 +6,10 @@ p {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -21,23 +23,25 @@ ul {
 }
 
 /* debug start */
-html {
-  box-sizing: border-box;
-}
+/*html {*/
+/*  box-sizing: border-box;*/
+/*}*/
 /* debug end */
 
 .header {
-  padding: 20px;
+  padding: 30px;
+  background-color: #3b5998;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
 }
 
 .content-wrapper {
-  width: 70%;
+  /*width: 70%;*/
+  width: 981px;
   margin: 0 auto;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
 }
 
@@ -46,7 +50,7 @@ html {
   display: flex;
   justify-content: space-between;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
 }
 
@@ -54,7 +58,7 @@ html {
   display: flex;
   align-items: flex-end;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
 }
 
@@ -62,7 +66,7 @@ html {
   display: flex;
   align-items: center;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
 }
 
@@ -70,26 +74,36 @@ html {
 .btn-register {
   display: inline-block;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
 }
 
 .logo {
   font-size: 4em;
   font-weight: bolder;
-  line-height: 0.7em;
+  line-height: 0.76em;
   letter-spacing: -3px;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-register {
-  margin-left: 10px;
+  margin-left: 20px;
   width: 2.75em;
   height: 1.75em;
   border-radius: 2px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  background-color: #42b72a;
+  cursor: pointer;
   /* debug start */
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   /* debug end */
+}
+
+.header-dropdown {
+  color: white;
+  cursor: pointer;
 }
