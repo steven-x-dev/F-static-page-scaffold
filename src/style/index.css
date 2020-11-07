@@ -109,3 +109,38 @@ ul {
   color: white;
   cursor: pointer;
 }
+
+.main .content-wrapper{
+  padding: 20px 0 60px;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.main-title {
+  margin-bottom: 20px;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.category-section {
+  display: flex;
+  justify-content: space-between;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.category {
+  width: 100%;
+  /* debug start */
+  border: solid 1px red;
+  /* debug end */
+}
+
+.category:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
